@@ -16,10 +16,13 @@ const projects = [
 const projectsContainer = document.querySelector(".projects-container");
 
 if (projectsContainer) {
+
     projectsContainer.innerHTML = "";
 
     projects.forEach(project => {
+
         const projectCard = document.createElement("div");
+
         projectCard.className = "project";
 
         projectCard.innerHTML = `
@@ -27,7 +30,7 @@ if (projectsContainer) {
             <h3>${project.title}</h3>
             <p>${project.description}</p>
             <a href="${project.link}">
-                <button>View Project →</button>
+                <button type="button">View Project →</button>
             </a>
         `;
 
