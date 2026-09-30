@@ -593,3 +593,19 @@ footer p {
     margin: 20px auto;
   }
 }
+.metric {
+    background: #071426;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #1e3a5f;
+    border-radius: 15px;
+    padding: 18px 30px;
+    display: block;
+    transition: 0.3s;
+}
+
+.metric:hover {
+    background: #0b1f38;
+    color: #ffffff;
+    border-color: #2563eb;
+}
