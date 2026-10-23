@@ -629,3 +629,25 @@ footer p {
     box-shadow: 0 4px 12px rgba(255, 122, 0, 0.35);
     transform: translateY(-2px);
 }
+
+/* Excel Project Download Button */
+a.download-btn,
+.card a.download-btn {
+    display: inline-block !important;
+    background: #212529 !important;
+    color: #ffffff !important;
+    padding: 12px 22px !important;
+    border: 2px solid #212529 !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+a.download-btn:hover,
+.card a.download-btn:hover {
+    background: #ff7a00 !important;
+    color: #ffffff !important;
+    border-color: #ff7a00 !important;
+}
